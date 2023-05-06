@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delicious Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">Menu</a>
+		<a href="#">Contact Us</a>
+	</nav>
+	<h1>Delicious Restaurant</h1>
+	<h2>Menu</h2>
+	<ul>
+		<li>Grilled Chicken: $10.99</li>
+		<li>Penne Pasta: $8.99</li>
+		<li>Caesar Salad: $6.99</li>
+	</ul>
+	<img src="https://bing.com/th?id=AMMS_e510e746c45c4c0fcef39e367689c989" wdith="98px"height="150px" alt="Grilled Chicken">
+	<img src="https://cdnimg.webstaurantstore.com/images/products/large/714499/2440816.jpg" wdith="175px"height="150px" alt="Penne Pasta">
+	<img src="https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-6.jpg" wdith="175px"height="150px" alt="Caesar Salad">
+	<h2>Order Form</h2>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address"><br>
+  
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city">
+  
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state">
+  
+    <label for="zipcode">Zip Code:</label>
+    <input type="text" id="zipcode" name="zipcode"><br>
+  
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone"><br>
+  
+    <label for="email">Email Address:</label>
+    <input type="text" id="email" name="email"><br>
+  
+    <label for="order">Order:</label>
+    <select id="order" name="order">
+      <option value="Grilled Chicken">Grilled Chicken</option>
+      <option value="Penne Pasta">Penne Pasta</option>
+      <option value="Caesar Salad">Caesar Salad</option>
+    </select><br>
+  
+    <label for="card">Card Number:</label>
+    <input type="text" id="card" name="card"><br>
+  
+    <label for="expiration">Expiration Date:</label>
+    <input type="text" id="expiration" name="expiration"><br>
+  
+    <label for="security">Security Code:</label>
+    <input type="text" id="security" name="security"><br>
+  
+    <button type="submit" disabled>Submit</button>
+  </form>
+</body>
+</html>  
